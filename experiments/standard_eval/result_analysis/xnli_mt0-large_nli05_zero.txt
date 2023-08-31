@@ -1,0 +1,104 @@
+self.base_name='xnli_mt0-large_nli05_en_zero'
+seeds=['6299']
+preds=[{2: 2174, 0: 2831, 1: 5}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 2174, 'Yes': 2831, 'Maybe': 5}]
+Suppose Well, I wasn't even thinking about that, but I was so frustrated, and, I ended up talking to him again. Can we infer that "I havent spoken to him again."? Yes, no, or maybe?
+
+self.base_name='xnli_mt0-large_nli05_de_zero'
+seeds=['6299']
+preds=[{2: 2921, 0: 2089}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 2921, 'Yes': 2089}]
+Angenommen, Nun, daran dachte ich nicht einmal, aber ich war so frustriert, dass ich am Ende doch mit ihm redete. Können wir daraus schließen, dass "Ich habe nicht wieder mit ihm gesprochen."? Ja, nein, oder vielleicht?
+
+self.base_name='xnli_mt0-large_nli05_ar_zero'
+seeds=['6299']
+preds=[{2: 560, 0: 4447, 1: 3}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 538, 'Yes': 4447, 'لا': 22, 'ما': 3}]
+افترض حسنا ، لم أكن أفكر حتى حول ذلك ، لكن كنت محبطاً تماما ،وأنهيت الحديث معه مرة ثانية . هل يمكننا أن نستنتج أن "لم أتحدث معه مرة أخرى."؟ نعم ، لا ، أو ربما؟
+
+self.base_name='xnli_mt0-large_nli05_bg_zero'
+seeds=['6299']
+preds=[{0: 3570, 2: 1429, 1: 11}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 3570, 'No': 1428, 'Maybe': 3, 'а': 3, 'maybe': 2, 'n': 1, 'negative': 1, 'no': 1, 'a': 1}]
+Да предположим, че Е, аз дори не мислех за това, но бях толкова разочарована, а в крайна сметка отново разговарях с него. Можем ли да заключим, че "Повече не съм говорил с него."? Да, не или може би?
+
+self.base_name='xnli_mt0-large_nli05_el_zero'
+seeds=['6299']
+preds=[{1: 4880, 0: 107, 2: 23}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'χι': 3814, 'ναι': 289, 'ς': 691, 'Maybe': 38, 'Yes': 107, 'mungkin': 20, 'o': 4, 'wful': 1, 'uh': 1, 's': 17, 'No': 23, '.': 3, 'Kaufman': 1, 'maybe': 1}]
+Ας υποθέσουμε ότι Λοιπόν, δεν το σκέφτηκα καν, αλλά ήμουν τόσο απογοητευμένος, και κατέληξα να του μιλάω και πάλι. Μπορούμε να συμπεράνουμε ότι "Δεν του μίλησα ξανά."; Ναι, όχι, ή ίσως;
+
+self.base_name='xnli_mt0-large_nli05_es_zero'
+seeds=['6299']
+preds=[{2: 4507, 0: 503}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4507, 'Yes': 503}]
+Supongamos que Bien, ni estaba pensando en eso, pero estaba tan frustrada y empecé a hablar con él de nuevo. ¿Podemos inferir que "No he vuelto a hablar con él."? ¿Sí, no, o tal vez?
+
+self.base_name='xnli_mt0-large_nli05_fr_zero'
+seeds=['6299']
+preds=[{0: 3443, 2: 1521, 1: 46}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 3443, 'No': 1521, 'être': 28, 'Oui': 9, 'Non': 7, 'Maybe': 2}]
+Supposons que Eh bien, je ne pensais même pas à cela, mais j'étais si frustré, et j'ai fini par lui reparler. Peut-on en déduire que "Je ne lui ai pas parlé de nouveau" ? Oui, non, ou peut-être ?
+
+self.base_name='xnli_mt0-large_nli05_hi_zero'
+seeds=['6299']
+preds=[{0: 4234, 2: 771, 1: 5}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'हाँ': 2512, 'Yes': 1722, 'No': 559, 'नहीं': 212, 'ह्': 1, 'है': 1, 'थी': 1, 'प्रति': 1, 'यद': 1}]
+मान लीजिए हालांकि मैं इसके बारे में सोच भी नहीं रहा था लेकिन मैं इतना परेशान था कि मुझे वापस उससे बात करनी ही पड़ेगी क्या हम यह अनुमान लगा सकते हैं कि "मैंने उससे दोबारा बात नहीं की है।"? हाँ, नहीं, या शायद?
+
+self.base_name='xnli_mt0-large_nli05_ru_zero'
+seeds=['6299']
+preds=[{0: 3611, 2: 1331, 1: 68}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 3611, 'No': 1331, 'может': 17, 'puede': 7, 'ser': 11, 'seguro': 1, 'be': 20, 'ть': 7, 'útil': 2, 'negative': 1, 'a': 2}]
+Предположим, что Ну, я даже не думал об этом, но я был так разочарован, что в конце концов опять поговорил с ним. Можем ли мы сделать вывод, что "Я больше с ним не разговаривал."? Да, нет или может быть?
+
+self.base_name='xnli_mt0-large_nli05_sw_zero'
+seeds=['6299']
+preds=[{0: 2138, 2: 2872}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 2138, 'No': 2872}]
+Tuseme Naam, sikukuwa nafikiri juu ya hilo, lakini nilichanganyikiwa sana, na, hatimaye nikaendelea kuzungumza naye tena. Je, tunaweza kukisia kuwa "Sijaongea na yeye tena."? Ndio, hapana, au labda?
+
+self.base_name='xnli_mt0-large_nli05_th_zero'
+seeds=['6299']
+preds=[{1: 4905, 0: 76, 2: 29}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Maybe': 4859, 'Yes': 76, 'No': 11, 'False': 18, 'อาจจะ': 35, '可以': 7, '可能': 2, 'maybe': 1, 'puede': 1}]
+สมมติว่า ดี, ฉันไม่ได้คิดอะไรเกี่ยวกับเรื่องนี้, แต่ฉันก็ผิดหวัง, และ, ฉันก็กลับไปคุยกับเขาอีกครั้ง เราสามารถสรุปได้ว่า "ฉันไม่ได้คุยกับเขาอีกเลย" ได้หรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+
+self.base_name='xnli_mt0-large_nli05_tr_zero'
+seeds=['6299']
+preds=[{0: 4173, 2: 835, 1: 2}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 4173, 'No': 835, 'e': 1, 'a': 1}]
+Varsayalım ki Pekala, bunu hiç düşünmemiştim ancak kafam çok karıştı ve onunla tekrar konuşmadım. "Onunla bir daha konuşmadım." sonucunu çıkarabilir miyiz? Evet mi, hayır mı, yoksa belki mi?
+
+self.base_name='xnli_mt0-large_nli05_ur_zero'
+seeds=['6299']
+preds=[{1: 4801, 0: 157, 2: 52}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'ہاں': 4282, 'زیا': 1, 'ہے': 35, 'تھا': 26, 'کریں': 198, 'ہے۔': 14, 'رہا': 1, '': 18, 'Yes': 157, 'کر': 5, 'س': 1, 'سے': 5, 'یں': 27, 'ور': 1, 'داخل': 1, 'تھے۔': 5, 'ھیں': 1, 'تھا۔': 4, 'ر': 1, 'لوگ': 1, 'ام': 1, 'کیا': 2, 'تھی': 4, 'بھی': 4, 'روغ': 1, 'کی': 1, 'ہ': 1, 'اتفاق': 1, 'اور': 1, 'ضرور': 1, 'کام': 1, 'جب': 1, 'بھا': 1, 'لی': 2, 'تا': 2, 'ما': 1, 'No': 41, '"': 1, '۔': 3, 'ا۔': 1, 'ً': 13, 'ن': 12, 'میں': 2, 'نہیں': 11, 'جلد': 1, 'ہیں': 9, 'تیں': 2, 'پی': 1, 'ہوں': 1, 'دہ': 2, 'ہوگا': 2, 'ے': 7, 'لگ': 1, 'نی': 2, 'ہم': 2, 'ہت': 2, 'نا': 5, 'تها': 1, 'ط': 1, 'رہے': 1, 'ع': 1, 'ئی': 1, 'سوس': 1, 'ھا': 2, 'گا۔': 2, 'کارا': 1, 'ی': 1, 'تے': 1, 'اس': 2, 'بنا': 1, 'و': 2, 'کے': 4, 'پور': 2, 'فی': 1, 'عوام': 1, 'یابی': 1, 'موجود': 1, 'ئے': 3, 'ب': 1, 'پر': 3, 'وال': 1, 'مت': 1, 'کہ': 2, 'گیا': 1, 'یہ': 2, 'ید': 1, 'ک': 2, 'پس': 1, 'تین': 1, 'مط': 2, 'م': 1, 'اصلاح': 1, 'وں': 1, 'کو': 1, 'صرف': 1, 'یر': 1, 'طلاق': 1, 'انی': 1, 'نما': 1, '؟': 1, 'تر': 1, 'گر': 1, 'زین': 1, 'جا': 1, 'ھن': 1, 'ولا': 2, 'دار': 1, 'صنعت': 1, 'ہی': 1, 'یمن': 1, '،': 2, 'سکتا': 1, 'صاب': 1, 'ہو': 1, 'ھی': 1, 'چ': 1, 'تب': 1, 'یز': 1, 'لیف': 1}]
+فرض کریں میں اس کے بارے میں نہیں سوچھ رہی تھی ، لیکن میں اتنی مایوس تھی کہ اس سے دوبارہ بات کرنے لگی۔ کیا ہم اندازہ لگا سکتے ہیں کہ "میں نی اسی دوبارا بات نھی کی"؟ ہاں، نہیں، یا شاید؟
+
+self.base_name='xnli_mt0-large_nli05_vi_zero'
+seeds=['6299']
+preds=[{1: 4676, 0: 292, 2: 42}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Không': 472, 'Yes': 292, 'Có': 3451, 'không': 653, 'có': 50, 'được': 17, '1984': 1, 'No': 42, '2010.': 1, 'nói': 7, 'huh': 2, 'uh': 2, 'm': 2, '?': 1, 'ốc': 1, 'ắc': 1, 'ít': 2, 't': 3, 'ời': 2, 'org': 1, 'ơn': 1, 'ạch': 1, 'o': 2, 'như': 1, 'ệ': 1, 'iên': 1}]
+Giả sử Vâng, tôi thậm chí không nghĩ về điều đó, nhưng tôi đã rất thất vọng, và, tôi lại nói chuyện với anh ta lần nữa. Chúng ta có thể suy ra rằng "Tôi đã không nói chuyện với anh ta nữa." không? Có, không, hoặc có thể?
+
+self.base_name='xnli_mt0-large_nli05_zh_zero'
+seeds=['6299']
+preds=[{2: 1856, 0: 2015, 1: 1139}]
+golds=[{2: 1670, 0: 1670, 1: 1670}]
+raws=[{'不是': 1026, 'Yes': 1896, '可能': 1122, 'No': 830, '是': 119, '错误': 17}]
+假设 嗯，我根本没想过，但是我很沮丧，最后我又和他说话了。.我们能否推断出"我还没有和他再次谈论。"？是，不是，还是可能？

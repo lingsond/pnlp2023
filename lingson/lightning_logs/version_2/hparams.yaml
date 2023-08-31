@@ -1,0 +1,11 @@
+model_name_or_path: xlm-roberta-base
+num_labels: 3
+task_name: standard
+learning_rate: 2.0e-05
+adam_epsilon: 1.0e-08
+warmup_steps: 0
+weight_decay: 0.0
+train_batch_size: 1
+eval_batch_size: 32
+eval_splits:
+- validation

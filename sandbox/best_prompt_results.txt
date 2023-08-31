@@ -1,0 +1,26 @@
+english01 zero-shot
+Total samples: 501 - Accuracy: 0.46706586826347307
+english02 zero-shot
+Total samples: 501 - Accuracy: 0.47105788423153694
+
+./templates/english01.jinja2 - zeroshot
+Samples: 501 - Acc (micro/macro): 0.4910/0.4892 - Precision: 0.3478/0.3478 - Recall: 0.4910/0.4892 - F1: 0.4910/0.3964
+
+./templates/english02.jinja2 - zeroshot
+Samples: 501 - Acc (micro/macro): 0.4731/0.4730 - Precision: 0.3176/0.3176 - Recall: 0.4731/0.4730 - F1: 0.4731/0.3793
+
+./templates/english03.jinja2 - zeroshot
+Samples: 501 - Acc (micro/macro): 0.4351/0.4349 - Precision: 0.3270/0.3270 - Recall: 0.4351/0.4349 - F1: 0.4351/0.3471
+
+./templates/english04.jinja2 - zeroshot
+Samples: 501 - Acc (micro/macro): 0.4291/0.4290 - Precision: 0.3280/0.3280 - Recall: 0.4291/0.4290 - F1: 0.4291/0.3422
+
+
+./templates/english01.jinja2 - fewshot
+Total samples: 501 - Accuracy: 0.47305389221556887
+
+english02 few-shot
+Total samples: 501 - Accuracy: 0.4231536926147705
+
+./templates/english03.jinja2 - fewshot
+Total samples: 501 - Accuracy: 0.45109780439121755

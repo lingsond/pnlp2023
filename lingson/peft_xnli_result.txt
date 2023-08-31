@@ -1,0 +1,4 @@
+Results (macro)
+Accuracy: 0.3333 - Precision: 0.1111 - Recall: 0.3333 - F1 Score: 0.1667 - Micro: 0.3333
+0.3333	0.1111	0.3333	0.1667	0.3333
+

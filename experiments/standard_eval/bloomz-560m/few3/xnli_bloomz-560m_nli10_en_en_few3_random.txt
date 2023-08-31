@@ -1,0 +1,8 @@
+
+Average Results (macro) - Samples: 0 - Seeds: [5206, 9260, 3922, 2398, 2120]
+Accuracy   : 0.4035
+Precision  : 0.3108
+Recall     : 0.4035
+F1 Score   : 0.3019
+Micro Score: 0.4035
+0.4035	0.3108	0.4035	0.3019	0.4035

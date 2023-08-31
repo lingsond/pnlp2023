@@ -1,0 +1,12 @@
+{
+  "dataset_name": "xnli",
+  "language": "en",
+  "sample_split": "validation",
+  "model_name": "bigscience/mt0-large",
+  "template_base": "nli_english",
+  "target_path": "../experiments/best_english_prompts",
+  "fewshot": false,
+  "max_answer_length": 20,
+  "max_samples": 0,
+  "randomize_seeds": false
+}

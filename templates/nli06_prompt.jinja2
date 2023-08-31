@@ -1,0 +1,31 @@
+{%- if language == 'en' -%}
+Given that {{ data['premise'] }} Does it follow that {{ data['hypothesis'] }} Yes, no, or maybe?
+{%- elif language == 'de' -%}
+Vorausgesetzt, dass {{ data['premise'] }} Ergibt sich daraus, dass {{ data['hypothesis'] }} Ja, nein, oder vielleicht?
+{%- elif language == 'bg' -%}
+Като се има предвид, че {{ data['premise'] }} следва ли, че {{ data['hypothesis'] }} Да, не или може би?
+{%- elif language == 'el' -%}
+Δεδομένου ότι {{ data['premise'] }} προκύπτει ότι {{ data['hypothesis'] }} Ναι, όχι, ή ίσως;
+{%- elif language == 'es' -%}
+Dado que {{ data['premise'] }} ¿Se deduce que {{ data['hypothesis'] }} ¿Sí, no o tal vez?
+{%- elif language == 'fr' -%}
+Étant donné que {{ data['premise'] }} Est-ce qu'il s'ensuit que {{ data['hypothesis'] }} Oui, non, ou peut-être ?
+{%- elif language == 'ru' -%}
+Учитывая, что {{ data['premise'] }} следует ли из этого, что {{ data['hypothesis'] }} Да, нет или возможно?
+{%- elif language == 'tr' -%}
+Verilen {{ data['premise'] }} Buradan {{ data['hypothesis'] }} sonucu çıkar mı? Evet mi, hayır mı, yoksa belki mi?
+{%- elif language == 'zh' -%}
+鉴于 {{ data['premise'] }}是否可以得出 {{ data['hypothesis'] }}是，不是，还是可能？
+{%- elif language == 'ar' -%}
+بالنظر إلى أن {{ data['premise'] }} هل يتبع ذلك {{ data['hypothesis'] }} نعم ، لا ، أو ربما؟
+{%- elif language == 'hi' -%}
+यह देखते हुए कि {{ data['premise'] }} क्या यह उस {{ data['hypothesis'] }} का अनुसरण करता है हाँ, नहीं, या हो सकता है?
+{%- elif language == 'sw' -%}
+Kwa kuzingatia kwamba {{ data['premise'] }} Je, inafuata kwamba {{ data['hypothesis'] }} Ndiyo, hapana, au labda?
+{%- elif language == 'th' -%}
+ระบุว่า {{ data['premise'] }} เป็นไปตามนั้น {{ data['hypothesis'] }} ใช่ ไม่ใช่ หรืออาจจะ?
+{%- elif language == 'ur' -%}
+یہ دیکھتے ہوئے کہ {{ data['premise'] }} کیا یہ اس {{ data['hypothesis'] }} کی پیروی کرتا ہے ہاں، نہیں، یا شاید؟
+{%- elif language == 'vi' -%}
+Cho rằng {{ data['premise'] }} Nó có tuân theo điều đó {{ data['hypothesis'] }} Có, không, hoặc có thể không?
+{%- endif -%}

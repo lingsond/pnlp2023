@@ -1,0 +1,16 @@
+{
+  "dataset_name": "xnli",
+  "dataset_size": "15k",
+  "languages_org": ["en", "ar", "bg", "de", "el", "es", "fr", "hi", "ru", "sw", "th", "tr", "ur", "vi", "zh"],
+  "languages": ["en", "ar", "bg", "de", "el", "es", "fr", "hi", "ru", "sw", "th", "tr", "ur", "vi", "zh"],
+  "template_name": "nli01",
+  "target_path": "../experiments/peft/bloomz-560m",
+  "model_name": "bigscience/bloomz-560m",
+  "peft_type": "prefix",
+  "peft_max_length": 128,
+  "fewshots": 0,
+  "max_samples": 0,
+  "randomize_seeds": false,
+  "number_of_seeds": 1,
+  "seeds": [42]
+}

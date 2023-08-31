@@ -1,0 +1,11 @@
+Results (macro) for Seed: 2779
+Accuracy: 0.3539 - Precision: 0.2981 - Recall: 0.3539 - F1 Score: 0.2279 - Micro: 0.3539
+0.3539	0.2981	0.3539	0.2279	0.3539
+
+Average Results (macro) - Samples: 5010 - Seeds: [2779]
+Accuracy   : 0.3539
+Precision  : 0.2981
+Recall     : 0.3539
+F1 Score   : 0.2279
+Micro Score: 0.3539
+0.3539	0.2981	0.3539	0.2279	0.3539

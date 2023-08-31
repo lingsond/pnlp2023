@@ -1,0 +1,20 @@
+{
+  "en": {
+    "base": [
+      "Based on the previous passage, is it true that",
+      "? Yes, no, or maybe?"],
+    "labels": ["Yes", "Maybe", "No"]
+  },
+  "de": {
+    "base": [
+      "Stimmt es auf der Grundlage der vorherigen Passage, dass",
+      "? Ja, nein, oder vielleicht?"],
+    "labels": ["Ja", "Vielleicht", "Nein"]
+  },
+  "zh": {
+    "base": [
+      "根据前面的段落，是真的吗",
+      "? 是，不是，或者也许?"],
+    "labels": ["是", "也许", "不是"]
+  }
+}

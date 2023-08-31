@@ -1,0 +1,7 @@
+{% if fewshots -%}
+{% for item in examples -%}
+If "{{ item['premise'] }}" then "{{ item['hypothesis'] }}". Does it make sense? Yes, no, or maybe?
+{{ item['label_text'] }}
+{% endfor %}
+{%- endif -%}
+If {{ data['premise'] }}, then {{ data['hypothesis'] }}. Does it make sense? Yes, no, or maybe?

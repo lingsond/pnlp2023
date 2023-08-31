@@ -1,0 +1,68 @@
+{% if fewshots -%}
+{% for item in examples -%}
+{% if language == 'en' -%}
+Given that {{ item['premise'] }} Therefore, it must be true that "{{ item['hypothesis'] }}"? Yes, no, or maybe?
+{% elif language == 'de' -%}
+Vorausgesetzt, dass {{ item['premise'] }} Daher muss es wahr sein, dass "{{ item['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{% elif language == 'bg' -%}
+Като се има предвид, че {{ item['premise'] }} Следователно трябва да е вярно, че "{{ item['hypothesis'] }}"? Да, не или може би?
+{% elif language == 'el' -%}
+Δεδομένου ότι {{ item['premise'] }} Επομένως, πρέπει να ισχύει ότι "{{ item['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{% elif language == 'es' -%}
+Dado que {{ item['premise'] }} Por lo tanto, ¿debe ser cierto que "{{ item['hypothesis'] }}"? ¿Sí, no, o tal vez?
+{% elif language == 'fr' -%}
+Étant donné que {{ item['premise'] }} Par conséquent, il doit être vrai que "{{ item['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'ru' -%}
+Учитывая, что {{ item['premise'] }} Следовательно, должно быть верно, что "{{ item['hypothesis'] }}"? Да, нет или может быть?
+{% elif language == 'tr' -%}
+Verilen {{ item['premise'] }} Bu nedenle, "{{ item['hypothesis'] }}" doğru olmalı mı? Evet mi, hayır mı, yoksa belki mi?
+{% elif language == 'zh' -%}
+鉴于{{ item['premise'] }}的情况因此，"{{ item['hypothesis'] }}"一定是真的？是，不是，还是可能？
+{% elif language == 'ar' -%}
+بالنظر إلى أن {{ item['premise'] }} لذلك ، يجب أن يكون صحيحًا أن "{{ item['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{% elif language == 'hi' -%}
+यह देखते हुए कि {{ item['premise'] }} इसलिए, यह सच होना चाहिए कि "{{ item['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{% elif language == 'sw' -%}
+Kwa kuzingatia kwamba {{ item['premise'] }} Kwa hivyo, lazima iwe kweli kwamba "{{ item['hypothesis'] }}"? Ndio, hapana, au labda?
+{% elif language == 'th' -%}
+กำหนดว่า {{ item['premise'] }} ดังนั้น "{{ item['hypothesis'] }}" จะต้องเป็นจริงหรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{% elif language == 'ur' -%}
+اس کو دیکھتے ہوئے {{ item['premise'] }} لہذا، یہ درست ہونا چاہیے کہ "{{ item['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{% elif language == 'vi' -%}
+Cho rằng {{ item['premise'] }} Vì vậy, điều đó phải đúng là "{{ item['hypothesis'] }}"? Có, không, hoặc có thể?
+{% endif -%}
+{{ item['label_text'] }}
+
+{% endfor -%}
+{% endif -%}
+{% if language == 'en' -%}
+Given that {{ data['premise'] }} Therefore, it must be true that "{{ data['hypothesis'] }}"? Yes, no, or maybe?
+{% elif language == 'de' -%}
+Vorausgesetzt, dass {{ data['premise'] }} Daher muss es wahr sein, dass "{{ data['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{% elif language == 'bg' -%}
+Като се има предвид, че {{ data['premise'] }} Следователно трябва да е вярно, че "{{ data['hypothesis'] }}"? Да, не или може би?
+{% elif language == 'el' -%}
+Δεδομένου ότι {{ data['premise'] }} Επομένως, πρέπει να ισχύει ότι "{{ data['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{% elif language == 'es' -%}
+Dado que {{ data['premise'] }} Por lo tanto, ¿debe ser cierto que "{{ data['hypothesis'] }}"? ¿Sí, no, o tal vez?
+{% elif language == 'fr' -%}
+Étant donné que {{ data['premise'] }} Par conséquent, il doit être vrai que "{{ data['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'ru' -%}
+Учитывая, что {{ data['premise'] }} Следовательно, должно быть верно, что "{{ data['hypothesis'] }}"? Да, нет или может быть?
+{% elif language == 'tr' -%}
+Verilen {{ data['premise'] }} Bu nedenle, "{{ data['hypothesis'] }}" doğru olmalı mı? Evet mi, hayır mı, yoksa belki mi?
+{% elif language == 'zh' -%}
+鉴于{{ data['premise'] }}的情况因此，"{{ data['hypothesis'] }}"一定是真的？是，不是，还是可能？
+{% elif language == 'ar' -%}
+بالنظر إلى أن {{ data['premise'] }} لذلك ، يجب أن يكون صحيحًا أن "{{ data['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{% elif language == 'hi' -%}
+यह देखते हुए कि {{ data['premise'] }} इसलिए, यह सच होना चाहिए कि "{{ data['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{% elif language == 'sw' -%}
+Kwa kuzingatia kwamba {{ data['premise'] }} Kwa hivyo, lazima iwe kweli kwamba "{{ data['hypothesis'] }}"? Ndio, hapana, au labda?
+{% elif language == 'th' -%}
+กำหนดว่า {{ data['premise'] }} ดังนั้น "{{ data['hypothesis'] }}" จะต้องเป็นจริงหรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{% elif language == 'ur' -%}
+اس کو دیکھتے ہوئے {{ data['premise'] }} لہذا، یہ درست ہونا چاہیے کہ "{{ data['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{% elif language == 'vi' -%}
+Cho rằng {{ data['premise'] }} Vì vậy, điều đó phải đúng là "{{ data['hypothesis'] }}"? Có, không, hoặc có thể?
+{% endif -%}

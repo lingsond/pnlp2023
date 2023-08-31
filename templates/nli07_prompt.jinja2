@@ -1,0 +1,46 @@
+{%- if language == 'en' -%}
+{{ data['premise'] }}
+Question: Does this imply that "{{ data['hypothesis'] }}"? Yes, no, or maybe?
+{%- elif language == 'de' -%}
+{{ data['premise'] }}
+Frage: Bedeutet dies, dass "{{ data['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{%- elif language == 'bg' -%}
+{{ data['premise'] }}
+Въпрос: Означава ли това, че "{{ data['hypothesis'] }}"? Да, не или може би?
+{%- elif language == 'el' -%}
+{{ data['premise'] }}
+Ερώτηση: Αυτό σημαίνει ότι "{{ data['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{%- elif language == 'es' -%}
+{{ data['premise'] }}
+Pregunta: ¿Implica esto que "{{ data['hypothesis'] }}"? ¿Sí, no, o tal vez?
+{%- elif language == 'fr' -%}
+{{ data['premise'] }}
+Question : Cela implique-t-il que "{{ data['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{%- elif language == 'ru' -%}
+{{ data['premise'] }}
+Вопрос: Означает ли это, что "{{ data['hypothesis'] }}"? Да, нет или может быть?
+{%- elif language == 'tr' -%}
+{{ data['premise'] }}
+Soru: Bu, "{{ data['hypothesis'] }}" anlamına mı gelir? Evet mi, hayır mı, yoksa belki mi?
+{%- elif language == 'zh' -%}
+{{ data['premise'] }}
+问题这是否意味着"{{ data['hypothesis'] }}"？是，不是，还是可能？
+{%- elif language == 'ar' -%}
+{{ data['premise'] }}
+سؤال: هل هذا يعني أن "{{ data['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{%- elif language == 'hi' -%}
+{{ data['premise'] }}
+प्रश्न: क्या इसका मतलब यह है कि "{{ data['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{%- elif language == 'sw' -%}
+{{ data['premise'] }}
+Swali: Je, hii inaashiria kwamba "{{ data['hypothesis'] }}"? Ndio, hapana, au labda?
+{%- elif language == 'th' -%}
+{{ data['premise'] }}
+คำถาม: นี่หมายความว่า "{{ data['hypothesis'] }}" หรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{%- elif language == 'ur' -%}
+{{ data['premise'] }}
+سوال: کیا اس کا مطلب یہ ہے کہ "{{ data['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{%- elif language == 'vi' -%}
+{{ data['premise'] }}
+Câu hỏi: Điều này có ngụ ý rằng "{{ data['hypothesis'] }}" không? Có, không, hoặc có thể?
+{%- endif -%}

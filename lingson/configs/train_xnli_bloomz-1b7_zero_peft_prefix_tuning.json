@@ -1,0 +1,15 @@
+{
+  "json_train": "prompt_dataset/xnli_train_en_en_nli07_5000.jsonl",
+  "json_eval": "prompt_dataset/xnli_validation_en_en_nli07.jsonl",
+  "json_test": "prompt_dataset/xnli_test_en_en_nli07.jsonl",
+  "dataset_name": "xnli",
+  "model_name": "bigscience/bloomz-1b7",
+  "max_answer_length": 1,
+  "max_length": 128,
+  "lr": 3e-2,
+  "epochs": 50,
+  "batch_size": 8,
+  "virtual_token": 30,
+  "randomize_seeds": false,
+  "seeds": 42
+}

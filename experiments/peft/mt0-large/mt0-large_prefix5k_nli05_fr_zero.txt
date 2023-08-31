@@ -1,0 +1,11 @@
+Results (macro) for Seed: 42
+Accuracy: 0.5631 - Precision: 0.3812 - Recall: 0.5631 - F1 Score: 0.4517 - Micro: 0.5631
+0.5631	0.3812	0.5631	0.4517	0.5631
+
+Average Results (macro) - Seeds: [42]
+Accuracy   : 0.5631
+Precision  : 0.3812
+Recall     : 0.5631
+F1 Score   : 0.4517
+Micro Score: 0.5631
+0.5631	0.3812	0.5631	0.4517	0.5631

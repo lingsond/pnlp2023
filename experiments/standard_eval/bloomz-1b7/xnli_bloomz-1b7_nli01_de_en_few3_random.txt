@@ -1,0 +1,23 @@
+Results (macro) for Seed: 5130
+Accuracy: 0.3361 - Precision: 0.2517 - Recall: 0.3361 - F1 Score: 0.1806 - Micro: 0.3361
+0.3361	0.2517	0.3361	0.1806	0.3361
+Results (macro) for Seed: 8040
+Accuracy: 0.3375 - Precision: 0.3136 - Recall: 0.3375 - F1 Score: 0.1808 - Micro: 0.3375
+0.3375	0.3136	0.3375	0.1808	0.3375
+Results (macro) for Seed: 8747
+Accuracy: 0.3703 - Precision: 0.2938 - Recall: 0.3703 - F1 Score: 0.2585 - Micro: 0.3703
+0.3703	0.2938	0.3703	0.2585	0.3703
+Results (macro) for Seed: 9031
+Accuracy: 0.3403 - Precision: 0.3442 - Recall: 0.3403 - F1 Score: 0.1849 - Micro: 0.3403
+0.3403	0.3442	0.3403	0.1849	0.3403
+Results (macro) for Seed: 336
+Accuracy: 0.3920 - Precision: 0.2613 - Recall: 0.3920 - F1 Score: 0.3135 - Micro: 0.3920
+0.3920	0.2613	0.3920	0.3135	0.3920
+
+Average Results (macro) - Samples: 5010 - Seeds: [5130, 8040, 8747, 9031, 336]
+Accuracy   : 0.3552
+Precision  : 0.2929
+Recall     : 0.3552
+F1 Score   : 0.2237
+Micro Score: 0.3552
+0.3552	0.2929	0.3552	0.2237	0.3552

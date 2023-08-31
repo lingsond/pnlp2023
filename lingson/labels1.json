@@ -1,0 +1,22 @@
+{
+  "xnli": {
+    "en": [["yes"], ["maybe"], ["no"]],
+    "de": [["ja", "yes", "true"], ["vielleicht", "maybe"], ["nein", "no", "false"]],
+    "zh": [["是", "yes", "true"], ["也许", "maybe"], ["不是", "no", "false"]],
+    "ar": [["نعم", "yes", "true"], ["ربما", "maybe"], ["لا", "no", "false"]],
+    "bg": [["да", "yes", "true"], ["Може би", "maybe"], ["Не", "no", "false"]],
+    "el": [["Ναί", "yes", "true"], ["Μπορεί", "maybe"], ["Οχι", "no", "false"]],
+    "es": [["Sí", "yes", "true"], ["Tal vez", "maybe"], ["No", "no", "false"]],
+    "fr": [["Oui", "yes", "true"], ["Peut être", "maybe"], ["Non", "no", "false"]],
+    "hi": [["हाँ", "yes", "true"], ["शायद", "maybe"], ["नहीं", "no", "false"]],
+    "ru": [["Да", "yes", "true"], ["Может быть", "maybe"], ["Нет", "no", "false"]],
+    "sw": [["Ndiyo", "yes", "true"], ["Labda", "maybe"], ["Hapana", "no", "false"]],
+    "th": [["ใช่", "yes", "true"], ["อาจจะ", "maybe"], ["เลขที่", "no", "false"]],
+    "tr": [["Evet", "yes", "true"], ["Belki", "maybe"], ["HAYIR", "no", "false"]],
+    "ur": [["جی ہاں", "yes", "true"], ["شاید", "maybe"], ["نہیں", "no", "false"]],
+    "vi": [["Đúng", "yes", "true"], ["Có lẽ", "maybe"], ["KHÔNG", "no", "false"]]
+  },
+  "americas_nli": {
+    "aym": [["yes", "true"], ["maybe"], ["no", "false"]]
+  }
+}

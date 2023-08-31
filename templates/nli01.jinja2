@@ -1,0 +1,69 @@
+{% if fewshots -%}
+{% for item in examples -%}
+{% if language == 'en' -%}
+{{ item['premise'] }} Based on the previous passage, is it true that "{{ item['hypothesis'] }}"? Yes, no, or maybe?
+{% elif language == 'de' -%}
+{{ item['premise'] }} Basierend auf der vorherigen Passage, ist es wahr, dass "{{ item['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{% elif language == 'bg' -%}
+{{ item['premise'] }} Въз основа на предишния пасаж вярно ли е, че "{{ item['hypothesis'] }}"? Да, не или може би?
+{% elif language == 'el' -%}
+{{ item['premise'] }} Με βάση το προηγούμενο απόσπασμα, είναι αλήθεια ότι "{{ item['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{% elif language == 'es' -%}
+{{ item['premise'] }} Según el pasaje anterior, ¿es cierto que "{{ item['hypothesis'] }}"? ¿Sí, no o tal vez?
+{% elif language == 'fr' -%}
+{{ item['premise'] }} D'après le passage précédent, est-il vrai que "{{ item['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'ru' -%}
+{{ item['premise'] }} Исходя из предыдущего отрывка, верно ли утверждение "{{ item['hypothesis'] }}"? Да, нет или возможно?
+{% elif language == 'tr' -%}
+{{ item['premise'] }} Önceki pasaja dayanarak, "{{ item['hypothesis'] }}" doğru mudur? Evet mi, hayır mı, yoksa belki mi?
+{% elif language == 'zh' -%}
+{{ item['premise'] }}根据前面的段落，"{{ item['hypothesis'] }}"是真的吗？是，不是，还是可能？
+{% elif language == 'ar' -%}
+{{ item['premise'] }} بناءً على المقطع السابق ، هل صحيح أن "{{ item['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{% elif language == 'hi' -%}
+{{ item['premise'] }} पिछले अनुच्छेद के आधार पर, क्या यह सच है कि "{{ item['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{% elif language == 'sw' -%}
+{{ item['premise'] }} Kulingana na kifungu kilichotangulia, je, ni kweli kwamba "{{ item['hypothesis'] }}"? Ndio, hapana, au labda?
+{% elif language == 'th' -%}
+{{ item['premise'] }} จากตอนที่แล้ว "{{ item['hypothesis'] }}" จริงหรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{% elif language == 'ur' -%}
+{{ item['premise'] }} پچھلے حوالے کی بنیاد پر، کیا یہ سچ ہے کہ "{{ item['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{% elif language == 'vi' -%}
+{{ item['premise'] }} Dựa trên đoạn văn trước, có đúng là "{{ item['hypothesis'] }}" không? Có, không, hoặc có thể?
+{% endif -%}
+{{ item['label_text'] }}
+
+{% endfor -%}
+{% endif -%}
+{% if language == 'en' -%}
+{{ data['premise'] }} Based on the previous passage, is it true that "{{ data['hypothesis'] }}"? Yes, no, or maybe?
+{% elif language == 'bg' -%}
+{{ data['premise'] }} Въз основа на предишния пасаж вярно ли е, че "{{ data['hypothesis'] }}"? Да, не или може би?
+{% elif language == 'de' -%}
+{{ data['premise'] }} Basierend auf der vorherigen Passage, ist es wahr, dass "{{ data['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{% elif language == 'el' -%}
+{{ data['premise'] }} Με βάση το προηγούμενο απόσπασμα, είναι αλήθεια ότι "{{ data['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{% elif language == 'es' -%}
+{{ data['premise'] }} Según el pasaje anterior, ¿es cierto que "{{ data['hypothesis'] }}"? ¿Sí, no o tal vez?
+{% elif language == 'fr' -%}
+{{ data['premise'] }} D'après le passage précédent, est-il vrai que "{{ data['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'ru' -%}
+{{ data['premise'] }} Исходя из предыдущего отрывка, верно ли утверждение "{{ data['hypothesis'] }}"? Да, нет или возможно?
+{% elif language == 'tr' -%}
+{{ data['premise'] }} Önceki pasaja dayanarak, "{{ data['hypothesis'] }}" doğru mudur? Evet mi, hayır mı, yoksa belki mi?
+{% elif language == 'zh' -%}
+{{ data['premise'] }}根据前面的段落，"{{ data['hypothesis'] }}"是真的吗？是，不是，还是可能？
+{% elif language == 'ar' -%}
+{{ data['premise'] }} بناءً على المقطع السابق ، هل صحيح أن "{{ data['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{% elif language == 'hi' -%}
+{{ data['premise'] }} पिछले अनुच्छेद के आधार पर, क्या यह सच है कि "{{ data['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{% elif language == 'sw' -%}
+{{ data['premise'] }} Kulingana na kifungu kilichotangulia, je, ni kweli kwamba "{{ data['hypothesis'] }}"? Ndio, hapana, au labda?
+{% elif language == 'th' -%}
+{{ data['premise'] }} จากตอนที่แล้ว "{{ data['hypothesis'] }}" จริงหรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{% elif language == 'ur' -%}
+{{ data['premise'] }} پچھلے حوالے کی بنیاد پر، کیا یہ سچ ہے کہ "{{ data['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{% elif language == 'vi' -%}
+{{ data['premise'] }} Dựa trên đoạn văn trước, có đúng là "{{ data['hypothesis'] }}" không? Có, không, hoặc có thể?
+{% endif -%}
+

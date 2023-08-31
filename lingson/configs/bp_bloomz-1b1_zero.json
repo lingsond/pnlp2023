@@ -1,0 +1,17 @@
+{
+  "dataset_name": "xnli",
+  "language": "en",
+  "sample_split": "validation",
+  "model_name": "bigscience/bloomz-1b1",
+  "template_base": "nli",
+  "template_language": "en",
+  "template_index": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "target_path": "../experiments/best_english_prompts",
+  "fewshot": false,
+  "multiplier": 0,
+  "randomize_example": false,
+  "max_answer_length": 20,
+  "max_samples": 0,
+  "randomize_seeds": true,
+  "seeds": 5
+}

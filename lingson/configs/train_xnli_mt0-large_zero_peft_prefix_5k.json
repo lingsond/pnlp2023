@@ -1,0 +1,17 @@
+{
+  "json_train": "prompt_dataset/xnli_train_en_en_nli05_5000.jsonl",
+  "json_eval": "prompt_dataset/xnli_validation_en_en_nli05.jsonl",
+  "json_test": "prompt_dataset/xnli_test_en_en_nli05.jsonl",
+  "dataset_name": "xnli",
+  "dataset_size": "5k",
+  "model_name": "bigscience/mt0-large",
+  "peft_type": "prefix",
+  "max_answer_length": 2,
+  "max_length": 128,
+  "lr": 1e-2,
+  "epochs": 50,
+  "batch_size": 8,
+  "virtual_token": 20,
+  "randomize_seeds": false,
+  "seeds": 42
+}

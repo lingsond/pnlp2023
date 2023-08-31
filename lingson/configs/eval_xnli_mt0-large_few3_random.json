@@ -1,0 +1,16 @@
+{
+  "dataset_name": "xnli",
+  "languages": ["en", "ar", "bg", "de", "el", "es", "fr", "hi", "ru", "sw", "th", "tr", "ur", "vi", "zh"],
+  "sample_split": "test",
+  "model_name": "bigscience/mt0-large",
+  "template_name": "nli09",
+  "template_language": "default",
+  "target_path": "../experiments/standard_eval",
+  "fewshot": true,
+  "multiplier": 1,
+  "randomize_example": true,
+  "max_answer_length": 20,
+  "max_samples": 0,
+  "randomize_seeds": true,
+  "seeds": 3
+}

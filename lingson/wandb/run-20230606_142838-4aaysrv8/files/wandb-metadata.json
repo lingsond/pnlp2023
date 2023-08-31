@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-06-06T12:28:39.182429",
+    "startedAt": "2023-06-06T12:28:38.499350",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\My Uni Projects\\nlpss23\\bloomz_xnli\\try_wandb.py",
+    "codePath": "bloomz_xnli\\try_wandb.py",
+    "git": {
+        "remote": "git@gitlab2.informatik.uni-wuerzburg.de:s438837/multilingual-evaluation-praktikum.git",
+        "commit": "365ac7fad44dbaf84f163aa3ae79896950c62cb3"
+    },
+    "email": "dirk.lingson@gmail.com",
+    "root": "D:/My Uni Projects/nlpss23",
+    "host": "Lingson-Huawei-XPro",
+    "username": "dirkl",
+    "executable": "D:\\Python VENV\\nlpss23\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2803.0,
+        "min": 0.0,
+        "max": 2803.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2803.0,
+            "min": 0.0,
+            "max": 2803.0
+        }
+    ],
+    "disk": {
+        "total": 814.1572227478027,
+        "used": 287.0054817199707
+    },
+    "memory": {
+        "total": 15.804008483886719
+    }
+}

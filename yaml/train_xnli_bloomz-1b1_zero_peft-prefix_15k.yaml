@@ -1,0 +1,58 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: train1b1-prefix15k
+  namespace: studwangsadirdja
+spec:
+  template:
+    spec:
+      priorityClassName: research-low
+      containers:
+        - name: custom-container-name
+          image: ls6-stud-registry.informatik.uni-wuerzburg.de/studwangsadirdja-nlpss23:0.1.0
+          imagePullPolicy: "Always"
+          workingDir: /home/stud/wangsadirdja
+          env:
+            - name: PYTHONHASHSEED
+              value: "0"
+            - name: PYTORCH_TRANSFORMERS_CACHE
+              value: "/home/stud/wangsadirdja/cache"
+            - name: MYDIR # example usage of env variable
+              value: "/home/stud/wangsadirdja/"
+          resources:
+            limits:
+              nvidia.com/gpu: "2"
+              cpu: "20"
+              memory: "32Gi"
+          command: ["bash", "-c", "cd /home/stud/wangsadirdja/nlp2023/lingson && python3 -u pipeline_train_peft.py
+                       --config ./configs/train_xnli_bloomz-1b1_zero_peft_prefix_15k.json"]
+          #              /home/stud/wangsadirdja/newtagger/output/gutenberg_000/
+          #              -t direct -f tsv -gpu -m test"]
+                        #--targetdir /home/stud/wangsadirdja/newtagger/data/riqua/000/
+                        #--resfolder /home/stud/wangsadirdja/newtagger/models/direct_bert_riq000/"]
+          #command: ["python", "-u", "/home/stud/wangsadirdja/fastbert/train_lm.py"]
+          # command: ["bash", "-c", "cd /home/stud/wangsadirdja/bert-speact/bspeact"]
+          # command: ["sleep", "10000000"]
+          volumeMounts:
+            - mountPath: /home/stud/wangsadirdja # directory IN the container
+              name: localdir # matches volume-name from below
+            - mountPath: /dev/shm
+              name: dshm
+      imagePullSecrets:
+        - name: lsx-registry
+      restartPolicy: "Never"
+      nodeSelector:
+        kubernetes.io/hostname: maglor
+      volumes:
+        - name: localdir
+          cephfs:
+            monitors:
+              - 132.187.14.16,132.187.14.17,132.187.14.19,132.187.14.20  # Not important for you, just copy along
+            user: studwangsadirdja  # <username>
+            path: "/home/stud/wangsadirdja" # <full path to dir in CEPH>
+            secretRef: # The name of the secret for auth. Is always "ceph-secret"
+              name: ceph-secret
+        - name: dshm
+          emptyDir:
+            medium: "Memory"
+            sizeLimit: "12Gi"

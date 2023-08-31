@@ -1,0 +1,6 @@
+FROM ls6-stud-registry.informatik.uni-wuerzburg.de/studwangsadirdja-nlpss23:0.0.1
+
+RUN pip3 install peft==0.4.0
+
+# NAME=ls6-stud-registry.informatik.uni-wuerzburg.de/studwangsadirdja-nlpss23:0.0.2
+

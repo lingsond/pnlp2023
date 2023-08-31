@@ -1,0 +1,31 @@
+{%- if language == 'en' -%}
+Suppose {{ data['premise'] }} Can we infer that "{{ data['hypothesis'] }}"? Yes, no, or maybe?
+{%- elif language == 'de' -%}
+Angenommen, {{ data['premise'] }} Können wir daraus schließen, dass "{{ data['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{%- elif language == 'bg' -%}
+Да предположим, че {{ data['premise'] }} Можем ли да заключим, че "{{ data['hypothesis'] }}"? Да, не или може би?
+{%- elif language == 'el' -%}
+Ας υποθέσουμε ότι {{ data['premise'] }} Μπορούμε να συμπεράνουμε ότι "{{ data['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{%- elif language == 'es' -%}
+Supongamos que {{ data['premise'] }} ¿Podemos inferir que "{{ data['hypothesis'] }}"? ¿Sí, no, o tal vez?
+{%- elif language == 'fr' -%}
+Supposons que {{ data['premise'] }} Peut-on en déduire que "{{ data['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{%- elif language == 'ru' -%}
+Предположим, что {{ data['premise'] }} Можем ли мы сделать вывод, что "{{ data['hypothesis'] }}"? Да, нет или может быть?
+{%- elif language == 'tr' -%}
+Varsayalım ki {{ data['premise'] }} "{{ data['hypothesis'] }}" sonucunu çıkarabilir miyiz? Evet mi, hayır mı, yoksa belki mi?
+{%- elif language == 'zh' -%}
+假设 {{ data['premise'] }}.我们能否推断出"{{ data['hypothesis'] }}"？是，不是，还是可能？
+{%- elif language == 'ar' -%}
+افترض {{ data ['premise'] }} هل يمكننا أن نستنتج أن "{{ data ['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{%- elif language == 'hi' -%}
+मान लीजिए {{ data['premise'] }} क्या हम यह अनुमान लगा सकते हैं कि "{{ data['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{%- elif language == 'sw' -%}
+Tuseme {{ data['premise'] }} Je, tunaweza kukisia kuwa "{{ data['hypothesis'] }}"? Ndio, hapana, au labda?
+{%- elif language == 'th' -%}
+สมมติว่า {{ data['premise'] }} เราสามารถสรุปได้ว่า "{{ data['hypothesis'] }}" ได้หรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{%- elif language == 'ur' -%}
+فرض کریں {{ data['premise'] }} کیا ہم اندازہ لگا سکتے ہیں کہ "{{ data['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{%- elif language == 'vi' -%}
+Giả sử {{ data['premise'] }} Chúng ta có thể suy ra rằng "{{ data['hypothesis'] }}" không? Có, không, hoặc có thể?
+{%- endif -%}

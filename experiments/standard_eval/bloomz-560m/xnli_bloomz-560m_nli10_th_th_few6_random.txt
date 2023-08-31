@@ -1,0 +1,11 @@
+Results (macro) for Seed: 1565
+Accuracy: 0.3367 - Precision: 0.2447 - Recall: 0.3367 - F1 Score: 0.1933 - Micro: 0.3367
+0.3367	0.2447	0.3367	0.1933	0.3367
+
+Average Results (macro) - Samples: 5010 - Seeds: [482, 5389, 7005, 7232, 1565]
+Accuracy   : 0.3350
+Precision  : 0.2287
+Recall     : 0.3350
+F1 Score   : 0.1952
+Micro Score: 0.3350
+0.3350	0.2287	0.3350	0.1952	0.3350

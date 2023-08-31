@@ -1,0 +1,5 @@
+{% for i in range(n) %}
+{{ examples[i]['premise'] }} {{ base[0] }} "{{ examples[i]['hypothesis'] }}"{{ base[1] }}
+{{ examples[i]['label_text'] }}
+{% endfor %}
+{{ data['premise'] }} {{ base[0] }} "{{ data['hypothesis'] }}"{{ base[1] }}

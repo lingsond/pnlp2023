@@ -1,0 +1,180 @@
+self.base_name='xnli_mt0-large_nli09_en_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{0: 3578, 2: 1414, 1: 18}, {1: 201, 0: 3633, 2: 1176}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 3578, 'No': 1393, 'maybe': 18, 'no': 21}, {'maybe': 200, 'Yes': 3629, 'no': 718, 'No': 458, 'yes': 4, 'negative': 1}, {'No': 5002, 'no': 8}]
+A key tool used by each company to ensure that a product's design was stable by the end of the product integration phase was a demonstration that the design would meet requirements. Are we justified in saying that "Companies don't use keys."? Yes, no, or maybe?
+['no']
+Deputy Director of Central Intelligence John McLaughlin testified that he was told about Moussaoui several days before Tenet was briefed, although he did not recall the specific date of the briefing. Are we justified in saying that "McLaughlin is the head of the FDA."? Yes, no, or maybe?
+['no']
+Your support helps the Society maintain quality care of animal and plant collections and to conduct important research on rare species including those in the Species Survival Plan. Are we justified in saying that "The Society cares for animals that are almost extinct in Africa."? Yes, no, or maybe?
+['maybe']
+Well, I wasn't even thinking about that, but I was so frustrated, and, I ended up talking to him again. Are we justified in saying that "I havent spoken to him again."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_de_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 3502, 0: 1508}, {2: 2311, 0: 2699}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 3501, 'Yes': 1508, 'False': 1}, {'No': 2309, 'Yes': 2699, 'no': 2}, {'No': 5010}]
+Ein Schlüsselinstrument welches jede Firma verwendete um gewähr zu leisten, dass die Konstruktion des Produkts stabil am ende der Integrationsphase war, war eine Demonstration welche zeigte,dass das Design die Anforderungen erfüllt. Are we justified in saying that "Firmen benutzen keine Schlüssel."? Yes, no, or maybe?
+['nein', 'no', 'false']
+Der stellvertretende Direktor des Zentralen Geheimdienstes, John McLaughlin, sagte aus, dass er einige Tage vor der Anweisung von Tenet über Moussaoui informiert wurde, obwohl er sich nicht an das genaue Datum der Anweisung erinnern konnte. Are we justified in saying that "McLaughlin ist der Leiter der FDA."? Yes, no, or maybe?
+['nein', 'no', 'false']
+Ihre Unterstützung hilft der Gesellschaft, die Qualität von der Versorgung der Tiere und Sammlungen von Pflanzen zu bewahren und die Durchführung von wichtiger Forschung an seltenen Arten, einschließlich die, die im Plan für das Überleben der Art sind. Are we justified in saying that "Die Gesellschaft kümmert sich um Tiere, die in Afrika fast ausgestorben sind."? Yes, no, or maybe?
+['vielleicht', 'maybe']
+Nun, daran dachte ich nicht einmal, aber ich war so frustriert, dass ich am Ende doch mit ihm redete. Are we justified in saying that "Ich habe nicht wieder mit ihm gesprochen."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_ar_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{0: 3940, 2: 1070}, {0: 4803, 2: 207}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 3940, 'No': 1070}, {'Yes': 4803, 'No': 207}, {'No': 5010}]
+كانت الأداة الرئيسية التي تستخدمها كل شركة للتأكد من أن تصميم المنتج مستقرًا في نهاية مرحلة تكامل المنتج هو الإستدلاء بأن التصميم يلبي المتطلبات. Are we justified in saying that "الشركات لا تستخدم المفاتيح."? Yes, no, or maybe?
+['لا', 'no', 'false']
+قدم نائب مدير المخابرات المركزية جون ماكلوين شهادته التى تنص على أنه أُخبر عن موسوى قبل بضعه أيام من شهادة تينت ، مع أنه لم يذكر أى موعد للأحاطة . Are we justified in saying that "مكلولين هو رئيس ادارة الاغذية والدواء."? Yes, no, or maybe?
+['لا', 'no', 'false']
+دعمك يساعد المجتمع على الحفاظ على جودة رعاية الحيوانات والنباتات، وتنفيذ بحوث هامة التي تجرى على الفصائل النادرة بما في تلك الفصائل الموجودة في خطة الإنقاذ. Are we justified in saying that "تهتم الجمعية بالحيوانات التي على وشك الانقراض في أفريقيا."? Yes, no, or maybe?
+['ربما']
+حسنا ، لم أكن أفكر حتى حول ذلك ، لكن كنت محبطاً تماما ،وأنهيت الحديث معه مرة ثانية . Are we justified in saying that "لم أتحدث معه مرة أخرى."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_bg_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4714, 0: 296}, {0: 3683, 2: 1327}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4714, 'Yes': 296}, {'Yes': 3683, 'No': 1327}, {'No': 5010}]
+Ключовото средство, използвано от всяка компания, за да гарантира, че дизайнът на продукта е стабилен до края на фазата на интегриране на продукта, е демонстрация, че дизайнът ще отговаря на изискванията. Are we justified in saying that "Фирмите не използват ключове."? Yes, no, or maybe?
+['Не', 'no', 'false']
+Заместник-директорът на Централното разузнаване Джон Маклафлин свидетелства, че му е казано за Мусауи няколко дни преди Тенет да бъде информиран, въпреки че не си спомня конкретната дата на срещата. Are we justified in saying that "Маклафлин е ръководител на агенцията за контрол на храните и лекарствата."? Yes, no, or maybe?
+['Не', 'no', 'false']
+Подкрепата ви помага на обществото да поддържа качествени грижи за колекциите от животни и растения и да провежда важни изследвания на редки видове, включително тези в Плана за оцеляване на видовете. Are we justified in saying that "Обществото се грижи за животни, които са почти изчезнали в Африка."? Yes, no, or maybe?
+['Може би']
+Е, аз дори не мислех за това, но бях толкова разочарована, а в крайна сметка отново разговарях с него. Are we justified in saying that "Повече не съм говорил с него."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_el_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4786, 0: 224}, {2: 3600, 0: 1410}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4786, 'Yes': 224}, {'No': 3600, 'Yes': 1410}, {'No': 5010}]
+Ένα βασικό εργαλείο που χρησιμοποιήθηκε από κάθε εταιρεία με σκοπό να διασφαλιστεί ότι ο σχεδιασμός ενός προϊόντος ήταν σταθερός μέχρι το τέλος της φάσης ολοκλήρωσης του προϊόντος ήταν η απόδειξη ότι ο σχεδιασμός πληρούσε τις απαιτήσεις. Are we justified in saying that "Οι εταιρείες δεν χρησιμοποιούν κλειδιά."? Yes, no, or maybe?
+['Οχι', 'no', 'false']
+Ο Αναπληρωτής Διευθυντής της Κεντρικής Υπηρεσίας Πληροφοριών, John McLaughlin, δήλωσε ότι είχε ενημερωθεί για τον Moussaoui αρκετές ημέρες πριν ενημερωθεί ο Tenet, αν και δεν θυμόταν την ακριβή ημερομηνία της ενημέρωσης. Are we justified in saying that "Ο McLaughlin είναι επικεφαλής του FDA."? Yes, no, or maybe?
+['Οχι', 'no', 'false']
+Η υποστήριξή σας βοηθάει τον Σύλλογο να διατηρεί ποιοτική φροντίδα στις συλλογές ζώων και φυτών και να διεξάγει σημαντική έρευνα για σπάνια είδη, συμπεριλαμβανομένων εκείνων του Σχεδίου Επιβίωσης Ειδών. Are we justified in saying that "Η Κοινωνία φροντίζει για ζώα που είναι υπό εξαφάνιση στην Αφρική."? Yes, no, or maybe?
+['Μπορεί']
+Λοιπόν, δεν το σκέφτηκα καν, αλλά ήμουν τόσο απογοητευμένος, και κατέληξα να του μιλάω και πάλι. Are we justified in saying that "Δεν του μίλησα ξανά."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_es_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4994, 0: 16}, {2: 4464, 0: 546}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4994, 'Yes': 16}, {'No': 4464, 'Yes': 546}, {'No': 5010}]
+Un instrumento clave usado por cada empresa para asegurar que el diseño de un producto era estable hacia el final de la fase de integración de producto era una demostración que el diseño encontraría exigencias. Are we justified in saying that "Las empresas no usan llaves."? Yes, no, or maybe?
+['No', 'no', 'false']
+El subdirector de Central Intelligence, John McLaughlin testificó que fue informado sobre Moussaoui varios días antes de que Tenet fuera informado, aunque no recuerda la fecha exacta del informe. Are we justified in saying that "McLaughlin es el jefe de la FDA."? Yes, no, or maybe?
+['No', 'no', 'false']
+Su apoyo ayuda a la sociedad a mantener un cuidado de calidad de las colecciones de animales y plantas y a realizar investigaciones importantes sobre especies raras, incluidas las del Plan de Supervivencia de Especies. Are we justified in saying that "La Sociedad se preocupa por los animales que están casi extintos en África."? Yes, no, or maybe?
+['Tal vez']
+Bien, ni estaba pensando en eso, pero estaba tan frustrada y empecé a hablar con él de nuevo. Are we justified in saying that "No he vuelto a hablar con él."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_fr_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 2798, 0: 2212}, {0: 3142, 2: 1868}, {2: 5008, 0: 2}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 2798, 'Yes': 2212}, {'Yes': 3142, 'No': 1868}, {'No': 5008, 'Yes': 2}]
+Un outil clé utilisé par chaque entreprise pour s'assurer que la conception d'un produit était stable à la fin de la phase d'intégration du produit était une démonstration que la conception répondrait aux exigences. Are we justified in saying that "Les entreprises n'utilisent pas de clés."? Yes, no, or maybe?
+['Non', 'no', 'false']
+John McLaughlin, directeur adjoint de la CIA, a témoigné avoir été informé sur Moussaoui plusieurs jours avant que Tenet ne soit lui-même mis au courant, bien qu'il ne se souvienne pas de la date spécifique à laquelle il a été informé. Are we justified in saying that "McLaughin est à la tête de la Food and Drug Administration."? Yes, no, or maybe?
+['Non', 'no', 'false']
+Votre soutien aide la Société à maintenir des soins de qualité pour les collections d'animaux et de plantes et à mener d'importantes recherches sur les espèces rares, y compris celles du Plan de survie des espèces. Are we justified in saying that "La Société s'occupe d'animaux presque disparus en Afrique."? Yes, no, or maybe?
+['Peut être']
+Eh bien, je ne pensais même pas à cela, mais j'étais si frustré, et j'ai fini par lui reparler. Are we justified in saying that "Je ne lui ai pas parlé de nouveau"? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_hi_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4258, 0: 752}, {0: 2902, 2: 2108}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4258, 'Yes': 752}, {'Yes': 2902, 'No': 2108}, {'No': 5010}]
+प्रत्येक कंपनी द्वारा उपयोग की जाने वाली एक महत्वपूर्ण उपकरण यह सुनिश्चित करने के लिए कि उत्पाद एकीकरण चरण के अंत तक एक उत्पाद का डिजाइन स्थिर था, यह एक प्रदर्शन था जो डिजाइन आवश्यकताओं को पूरा करेगा। Are we justified in saying that "कंपनियां कुंजी का उपयोग नहीं करती हैं।"? Yes, no, or maybe?
+['नहीं', 'no', 'false']
+सेंट्रल इंटेलिजेंस के उप निदेशक जौन मैकलाफिन ने  इस बात की पुष्टि की कि टेनिट से बात करने से कई दिनों पहले उन्हें Moussaoui  के बारे में बता दिया गया था; हालांकि उन्हें कोई विशेष तारीख याद नहीं है। Are we justified in saying that "मैकलाफ्लिन एफडीए के प्रमुख है।"? Yes, no, or maybe?
+['नहीं', 'no', 'false']
+आपका समर्थन समाज को पशु और पौधे संग्रहों की गुणवत्ता देखभाल बनाए रखने में मदद करता है और प्रजाति जीवन रक्षा योजना सहित दुर्लभ प्रजातियों पर महत्वपूर्ण शोध करने में मदद करता है। Are we justified in saying that "समाज अफ्रीका में लगभग विलुप्त हो चुके  जानवरों की परवाह करता है।"? Yes, no, or maybe?
+['शायद']
+हालांकि मैं इसके बारे में सोच भी नहीं रहा था लेकिन मैं इतना परेशान था कि मुझे वापस उससे बात करनी ही पड़ेगी Are we justified in saying that "मैंने उससे दोबारा बात नहीं की है।"? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_ru_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4952, 0: 58}, {2: 3326, 0: 1684}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4952, 'Yes': 58}, {'No': 3326, 'Yes': 1684}, {'No': 5010}]
+Ключевым средством, использовавшимся каждой компанией для обеспечения стабильности конструкции продукта к окончанию этапа интеграции продукта, была демонстрация соответствия конструкции требованиям. Are we justified in saying that "Компании не используют ключи."? Yes, no, or maybe?
+['Нет', 'no', 'false']
+Заместитель директора ЦРУ Джон МакЛафлин заявил, что получил сообщение о Муссаоуи за несколько дней до того, как об этом было доложено Тенету, хотя он и не помнит точной даты этого доклада. Are we justified in saying that "Маклафлин — глава FDA."? Yes, no, or maybe?
+['Нет', 'no', 'false']
+Ваша поддержка помогает Обществу поддерживать достойный уровень ухода за коллекциями животных и растений, а также проводить важные исследования редких видов, в том числе входящих в План по выживанию видов. Are we justified in saying that "Общество заботится о животных, которые почти вымерли в Африке."? Yes, no, or maybe?
+['Может быть']
+Ну, я даже не думал об этом, но я был так разочарован, что в конце концов опять поговорил с ним. Are we justified in saying that "Я больше с ним не разговаривал."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_sw_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4267, 0: 743}, {0: 1684, 2: 3326}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4267, 'Yes': 743}, {'Yes': 1684, 'No': 3326}, {'No': 5010}]
+Chombo muhimu kinachotumiwa na kila kampuni ili kuhakikisha kwamba ubunifu wa bidhaa ulikuwa imara mwishoni mwa awamu ya ushirikiano wa bidhaa ilikuwa ni maonyesho ya kwamba kubuni ingeweza kukidhi mahitaji. Are we justified in saying that "Makampuni hayatumii funguo."? Yes, no, or maybe?
+['Hapana', 'no', 'false']
+Naibu Mkurugenzi wa Upelelezi wa Kati John McLaughlin alishuhudia kwamba aliambiwa kuhusu Moussaoui siku kadhaa kabla ya Tenet kuambiwa, ingawa hakukumbuka tarehe maalum ya mkutano huo. Are we justified in saying that "McLaughlin ndiye amesimamia FDA."? Yes, no, or maybe?
+['Hapana', 'no', 'false']
+Msaada wako husaidia Shirika kudumisha huduma bora za makusanyo ya wanyama na mimea na kufanya utafiti muhimu juu ya aina zisizo za kawaida ikiwa ni pamoja na wale katika Mpango wa Species Survival. Are we justified in saying that "Shirika linashughulikia wanyama ambao wako karibu kupotea katika Africa."? Yes, no, or maybe?
+['Labda']
+Naam, sikukuwa nafikiri juu ya hilo, lakini nilichanganyikiwa sana, na, hatimaye nikaendelea kuzungumza naye tena. Are we justified in saying that "Sijaongea na yeye tena."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_th_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4709, 0: 301}, {0: 2855, 2: 2155}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4709, 'Yes': 301}, {'Yes': 2855, 'No': 2155}, {'No': 5010}]
+เครื่องมือหลักที่ใช้โดยแต่ละ บริษัทใช้เพื่อให้มั่นใจว่าการออกแบบผลิตภัณฑ์มีเสถียรภาพเมื่อสิ้นสุดขั้นตอนการรวมผลิตภัณฑ์แล้วเป็นการสาธิตว่าการออกแบบจะเป็นไปตามข้อกำหนด Are we justified in saying that "บริษัทไม่ได้ใช้กุญแจ"? Yes, no, or maybe?
+['เลขที่', 'no', 'false']
+รองผู้อำนวยการหน่วยข่าวกองกลาง จอห์น แม็คลาฟลิน ให้การว่ามีคนบอกเขาเกี่ยวกับมุสซาวีเมื่อหลายวันแล้วก่อนที่เทเน็ตจะได้รับทราบเรื่อง แม้ว่าเขาจะจำวันที่แน่นอนของการอธิบายงานครั้งนั้นไม่ได้ก็ตาม Are we justified in saying that "McLaughlin เป็นหัวหน้าของ FDA"? Yes, no, or maybe?
+['เลขที่', 'no', 'false']
+การสนับสนุนของคุณทำให้สังคมได้รักษาคุณภาพการดูแลสัตว์และพืชที่ถูกรวบรวมเอาไว้และยังช่วยในด้านการทำวิจัยสำคัญ ๆ เกี่ยวกับสายพันธุ์ต่างๆที่หายากซึ่งรวมไปถึงสายพันธุ์ที่อยู่ในแผนที่ต้องทำให้สายพันธุ์เหล่านี้อยู่รอดต่อไป Are we justified in saying that "ชุมชนใส่ใจเกี่ยวกับสัตว์ที่เกือบจะสูญพันธุ์ในแอฟริกา"? Yes, no, or maybe?
+['อาจจะ']
+ดี, ฉันไม่ได้คิดอะไรเกี่ยวกับเรื่องนี้, แต่ฉันก็ผิดหวัง, และ, ฉันก็กลับไปคุยกับเขาอีกครั้ง Are we justified in saying that "ฉันไม่ได้คุยกับเขาอีกเลย"? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_tr_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{0: 3678, 2: 1332}, {0: 1861, 2: 3149}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'Yes': 3678, 'No': 1332}, {'Yes': 1861, 'No': 3149}, {'No': 5010}]
+Ürün entegrasyon aşamasının sonunda bir ürünün tasarımının istikrarlı olmasını sağlamak için her şirketin kullandığı önemli bir araç, tasarımın gereklilikleri karşılayacağını gösteren bir gösteriydi. Are we justified in saying that "Şirketler anahtar kullanmazlar."? Yes, no, or maybe?
+['HAYIR', 'no', 'false']
+Merkezi İstihbarat Başkan Yardımcısı John McLaughlin, toplantının belirli bir tarihini hatırlamadığı halde, Tenet'e bildirilmesinden birkaç gün önce Moussaoui hakkında bilgilendirildiğini söyledi. Are we justified in saying that "McLaughlin, FDA başkanıdır."? Yes, no, or maybe?
+['HAYIR', 'no', 'false']
+Desteğiniz Toplumun hayvan ve bitki koleksiyonlarının kaliteli bakımını sürdürebilmesine ve Türlerin Hayatta Kalma Planında yer alanlar da dahil olmak üzere nadir bulunan türler hakkında önemli araştırma gerçekleştirebilmesine yardımcı olur. Are we justified in saying that "Toplum neredeyse soyu tükenmiş hayvanları önemsiyor."? Yes, no, or maybe?
+['Belki']
+Pekala, bunu hiç düşünmemiştim ancak kafam çok karıştı ve onunla tekrar konuşmadım. Are we justified in saying that "Onunla bir daha konuşmadım."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_ur_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 2539, 0: 2470, 1: 1}, {0: 4145, 2: 865}, {2: 5007, 0: 3}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 2539, 'Yes': 2470, "']": 1}, {'Yes': 4145, 'No': 865}, {'No': 5007, 'Yes': 3}]
+ہر کمپنی کی طرف سے استعمال کیا جاتا اہم آلہ ایک مصنوعات کے ڈیزائن کو یقینی بنانے کے لئے مصنوعات انضمام مرحلے کے اختتام تک مستحکم تھا ایک مظاہرہ تھا کہ ڈیزائن ضروریات کو پورا کرے گا. Are we justified in saying that "کمپنیاں چابیاں استعمال نہیں کرتی"? Yes, no, or maybe?
+['نہیں', 'no', 'false']
+سینٹرل انٹیلیجنس کے ڈپٹی ڈائریکٹر جان میک لولن نے گواہی دی ہے کہ انہیں کئی سال پہلے ٹیسو سے متعلق موسووی کے بارے میں بتایا گیا تھا، تاہم اس نے بریفنگ کی مخصوص تاریخ کو یاد نہیں کیا. Are we justified in saying that "McLaughlin ایف ڈی اے کے سربراہ ہیں."? Yes, no, or maybe?
+['نہیں', 'no', 'false']
+آپ کی مدد سے سوسائٹی میں جانوروں اور پودوں کے مجموعہ کی معیار کی دیکھ بھال کو برقرار رکھتا ہے اور غیر معمولی پرجاتیوں پر اہم تحقیقات کرنے کے لۓ بشمول مخصوص بقایا منصوبہ میں شامل ہیں. Are we justified in saying that "سوسائٹی ایسے جانوروں کے لئے دیکھتا ہے جو افریقہ میں تقریبا ناپاک ہیں"? Yes, no, or maybe?
+['شاید']
+میں اس کے بارے میں نہیں سوچھ رہی تھی ، لیکن میں اتنی مایوس تھی کہ اس سے دوبارہ بات کرنے لگی۔ Are we justified in saying that "میں نی اسی دوبارا بات نھی کی"? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_vi_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4875, 0: 135}, {0: 3839, 2: 1171}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4875, 'Yes': 135}, {'Yes': 3839, 'No': 1171}, {'No': 5010}]
+Một công cụ quan trọng mà mỗi công ty nên sử dụng để đảm bảo rằng thiết kế của sản phẩm đã ổn định vào cuối giai đoạn tích hợp sản phẩm chính là minh chứng rằng thiết kế này đã đáp ứng các yêu cầu. Are we justified in saying that "Các công ty không sử dụng chìa khóa."? Yes, no, or maybe?
+['KHÔNG', 'no', 'false']
+Phó Giám đốc Tình báo Trung ương John McLaughlin làm chứng rằng ông đã được kể về Moussaoui vài ngày trước khi Tenet được thông báo, mặc dù ông không nhớ lại ngày cụ thể của cuộc họp. Are we justified in saying that "McLaughlin là người đứng đầu FDA."? Yes, no, or maybe?
+['KHÔNG', 'no', 'false']
+Sự hỗ trợ của bạn giúp cho xã hội duy trì sự chăm sóc chất lượng của các bộ sưu tập động vật và thực vật và tiến hành nghiên cứu quan trọng về các loài quý hiếm bao gồm cả những loài trong Kế hoạch Sống còn loài. Are we justified in saying that "Xã hội quan tâm đến các động vật gần như tuyệt chủng ở châu Phi."? Yes, no, or maybe?
+['Có lẽ']
+Vâng, tôi thậm chí không nghĩ về điều đó, nhưng tôi đã rất thất vọng, và, tôi lại nói chuyện với anh ta lần nữa. Are we justified in saying that "Tôi đã không nói chuyện với anh ta nữa."? Yes, no, or maybe?
+self.base_name='xnli_mt0-large_nli09_zh_few3_random'
+seeds=['1531', '3501', '7197']
+preds=[{2: 4988, 0: 22}, {2: 4884, 0: 125, 1: 1}, {2: 5010}]
+golds=[{2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}, {2: 1670, 0: 1670, 1: 1670}]
+raws=[{'No': 4982, 'Yes': 22, 'no': 6}, {'No': 4878, 'Yes': 125, '因为': 1, 'no': 6}, {'No': 5010}]
+每个公司用来确保产品的设计的一个关键工具是在产品集成阶段结束时保持稳定, 这表明设计将满足要求。 Are we justified in saying that "公司不使用钥匙。"? Yes, no, or maybe?
+['不是', 'no', 'false']
+中央情报局副局长约翰·麦克洛林作证说，在特内特得知消息前几天，就有人向他报告了一些关于穆萨维的事情，但他没有透露报告日期。 Are we justified in saying that "McLaughlin是食品及药物管理局的负责人。"? Yes, no, or maybe?
+['不是', 'no', 'false']
+您的支持有助于协会保持动物和植物收藏的看护，并对稀有物种进行重要研究，包括物种生存计划中的物种。 Are we justified in saying that "该协会关心在非洲几乎灭绝的动物。"? Yes, no, or maybe?
+['也许']
+嗯，我根本没想过，但是我很沮丧，最后我又和他说话了。 Are we justified in saying that "我还没有和他再次谈论。"? Yes, no, or maybe?

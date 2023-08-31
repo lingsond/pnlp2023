@@ -1,0 +1,26 @@
+{
+  "xnli": {
+    "default": {"labels": ["yes", "maybe", "no"]},
+    "truefalse": {"labels": ["true", "false"]},
+    "en": {"labels": ["Yes", "Maybe", "No"]},
+    "de": {"labels": ["ja", "vielleicht", "nein"]},
+    "zh": {"labels": ["是", "也许", "不是"]},
+    "ar": {"labels": ["نعم", "ربما", "لا"]},
+    "bg": {"labels": ["да", "Може би", "Не"]},
+    "el": {"labels": ["Ναί", "Μπορεί", "Οχι"]},
+    "es": {"labels": ["Sí", "Tal vez", "No"]},
+    "fr": {"labels": ["Oui", "Peut être", "Non"]},
+    "hi": {"labels": ["हाँ", "शायद", "नहीं"]},
+    "ru": {"labels": ["Да", "Может быть", "Нет"]},
+    "sw": {"labels": ["Ndiyo", "Labda", "Hapana"]},
+    "th": {"labels": ["ใช่", "อาจจะ", "เลขที่"]},
+    "tr": {"labels": ["Evet", "Belki", "HAYIR"]},
+    "ur": {"labels": ["جی ہاں", "شاید", "نہیں"]},
+    "vi": {"labels": ["Đúng", "Có lẽ", "KHÔNG"]}
+  },
+  "americas_nli": {
+    "default": {"labels": ["yes", "maybe", "no"]},
+    "truefalse": {"labels": ["true", "false"]},
+    "aym": {"labels": ["yes", "maybe", "false"]}
+  }
+}

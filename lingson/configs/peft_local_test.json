@@ -1,0 +1,16 @@
+{
+  "dataset_name": "xnli",
+  "dataset_size": "5k",
+  "languages_org": ["en", "ar", "bg", "de", "el", "es", "fr", "hi", "ru", "sw", "th", "tr", "ur", "vi", "zh"],
+  "languages": ["en", "es"],
+  "template_name": "nli08",
+  "target_path": "../experiments/peft/mt0-base",
+  "model_name": "bigscience/mt0-base",
+  "peft_type": "prefix",
+  "peft_max_length": 128,
+  "fewshots": 0,
+  "max_samples": 30,
+  "randomize_seeds": false,
+  "number_of_seeds": 1,
+  "seeds": [42]
+}

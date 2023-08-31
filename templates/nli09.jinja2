@@ -1,0 +1,68 @@
+{% if fewshots -%}
+{% for item in examples -%}
+{% if language == 'en' -%}
+{{ item['premise'] }} Are we justified in saying that "{{ item['hypothesis'] }}"? Yes, no, or maybe?
+{% elif language == 'de' -%}
+{{ item['premise'] }} Ist es gerechtfertigt zu sagen, dass "{{ item['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{% elif language == 'bg' -%}
+{{ item['premise'] }} Имаме ли основание да твърдим, че "{{ item['hypothesis'] }}"? Да, не или може би?
+{% elif language == 'el' -%}
+{{ item['premise'] }} Δικαιούμαστε να πούμε ότι "{{ item['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{% elif language == 'es' -%}
+{{ item['premise'] }} ¿Está justificado decir que "{{ item['hypothesis'] }}"? ¿Sí, no o tal vez?
+{% elif language == 'fr' -%}
+Étant donné que {{ item['premise'] }} Par conséquent, il doit être vrai que "{{ item['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'ru' -%}
+{{ item['premise'] }} Sommes-nous fondés à dire que "{{ item['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'tr' -%}
+{{ item['premise'] }} "{{ item['hypothesis'] }}" demekte haklı mıyız? Evet mi, hayır mı, yoksa belki mi?
+{% elif language == 'zh' -%}
+{{ item['premise'] }}我们有理由说"{{ item['hypothesis'] }}"吗？是，不是，还是也许？
+{% elif language == 'ar' -%}
+{{ item['premise'] }} هل لدينا ما يبرر قولنا أن "{{ item['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{% elif language == 'hi' -%}
+{{ item['premise'] }} क्या हमारा यह कहना उचित है कि "{{  item['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{% elif language == 'sw' -%}
+{{ item['premise'] }} Je, tuna haki ya kusema kwamba "{{ item['hypothesis'] }}"? Ndio, hapana, au labda?
+{% elif language == 'th' -%}
+{{ item['premise'] }} เรามีเหตุผลที่จะพูดว่า "{{ item['hypothesis'] }}" หรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{% elif language == 'ur' -%}
+{{ item['premise'] }} کیا ہم یہ کہنا جائز ہیں کہ "{{ item['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{% elif language == 'vi' -%}
+{{ item['premise'] }} Chúng ta có hợp lý không khi nói rằng "{{ item['hypothesis'] }}"? Có, không, hoặc có thể?
+{% endif -%}
+{{ item['label_text'] }}
+
+{% endfor -%}
+{% endif -%}
+{% if language == 'en' -%}
+{{ data['premise'] }} Are we justified in saying that "{{ data['hypothesis'] }}"? Yes, no, or maybe?
+{% elif language == 'de' -%}
+{{ data['premise'] }} Ist es gerechtfertigt zu sagen, dass "{{ data['hypothesis'] }}"? Ja, nein, oder vielleicht?
+{% elif language == 'bg' -%}
+{{ data['premise'] }} Имаме ли основание да твърдим, че "{{ data['hypothesis'] }}"? Да, не или може би?
+{% elif language == 'el' -%}
+{{ data['premise'] }} Δικαιούμαστε να πούμε ότι "{{ data['hypothesis'] }}"; Ναι, όχι, ή ίσως;
+{% elif language == 'es' -%}
+{{ data['premise'] }} ¿Está justificado decir que "{{ data['hypothesis'] }}"? ¿Sí, no o tal vez?
+{% elif language == 'fr' -%}
+{{ data['premise'] }} Sommes-nous fondés à dire que "{{ data['hypothesis'] }}" ? Oui, non, ou peut-être ?
+{% elif language == 'ru' -%}
+{{ data['premise'] }} Оправдано ли утверждение "{{ data['hypothesis'] }}"? Да, нет или может быть?
+{% elif language == 'tr' -%}
+{{ data['premise'] }} "{{ data['hypothesis'] }}" demekte haklı mıyız? Evet mi, hayır mı, yoksa belki mi?
+{% elif language == 'zh' -%}
+{{ data['premise'] }}我们有理由说"{{ data['hypothesis'] }}"吗？是，不是，还是也许？
+{% elif language == 'ar' -%}
+{{ data['premise'] }} هل لدينا ما يبرر قولنا أن "{{ data['hypothesis'] }}"؟ نعم ، لا ، أو ربما؟
+{% elif language == 'hi' -%}
+{{ data['premise'] }} क्या हमारा यह कहना उचित है कि "{{  data['hypothesis'] }}"? हाँ, नहीं, या शायद?
+{% elif language == 'sw' -%}
+{{ data['premise'] }} Je, tuna haki ya kusema kwamba "{{ data['hypothesis'] }}"? Ndio, hapana, au labda?
+{% elif language == 'th' -%}
+{{ data['premise'] }} เรามีเหตุผลที่จะพูดว่า "{{ data['hypothesis'] }}" หรือไม่ ใช่ ไม่ใช่ หรืออาจจะ?
+{% elif language == 'ur' -%}
+{{ data['premise'] }} کیا ہم یہ کہنا جائز ہیں کہ "{{ data['hypothesis'] }}"؟ ہاں، نہیں، یا شاید؟
+{% elif language == 'vi' -%}
+{{ data['premise'] }} Chúng ta có hợp lý không khi nói rằng "{{ data['hypothesis'] }}"? Có, không, hoặc có thể?
+{% endif -%}

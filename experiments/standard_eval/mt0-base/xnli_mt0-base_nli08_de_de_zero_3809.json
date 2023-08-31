@@ -1,0 +1,46 @@
+{
+    "prediction": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0
+    ],
+    "gold_labels": [
+        2,
+        0,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        2
+    ],
+    "raw_answers": [
+        "Yes",
+        "Yes",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "Yes",
+        "No",
+        "Yes"
+    ],
+    "scores": [
+        0.3888888955116272,
+        0.2777777910232544,
+        0.3888888955116272,
+        0.32380953431129456,
+        0.4000000059604645
+    ],
+    "prompt_example": "Gegeben Nun, daran dachte ich nicht einmal, aber ich war so frustriert, dass ich am Ende doch mit ihm redete. Sollten wir annehmen, dass \"Ich habe nicht wieder mit ihm gesprochen.\" wahr ist? Ja, nein, oder vielleicht?\n"
+}

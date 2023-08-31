@@ -1,0 +1,18 @@
+{
+  "dataset_name": "xnli",
+  "languages_org": ["en", "ar", "bg", "de", "el", "es", "fr", "hi", "ru", "sw", "th", "tr", "ur", "vi", "zh"],
+  "languages": ["th", "tr", "ur", "vi", "zh"],
+  "sample_split": "test",
+  "model_name": "bigscience/bloomz-560m",
+  "template_name": "nli10",
+  "template_language": "en",
+  "target_path": "../experiments/standard_eval/bloomz-560m",
+  "fewshot": true,
+  "multiplier": 2,
+  "randomize_example": true,
+  "max_answer_length": 20,
+  "max_samples": 0,
+  "randomize_seeds": false,
+  "number_of_seeds": 5,
+  "seeds": [2529, 707, 4538, 241, 4021]
+}

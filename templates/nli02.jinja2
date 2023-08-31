@@ -1,0 +1,11 @@
+{% if fewshots -%}
+{% for item in examples -%}
+Premise: {{ item['premise'] }}
+Hypothesis: {{ item['hypothesis'] }}
+Based on the given Premise, is the given Hypothesis true? Yes, no, or maybe?
+{{ item['label_text'] }}
+{% endfor %}
+{%- endif -%}
+Premise: {{ data['premise'] }}
+Hypothesis: {{ data['hypothesis'] }}
+Based on the given Premise, is the given Hypothesis true? Yes, no, or maybe?

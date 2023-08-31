@@ -1,0 +1,15 @@
+{
+  "json_train": "xnli_train_en_en_nli08_120.jsonl",
+  "json_eval": "xnli_validation_en_en_nli08_120.jsonl",
+  "json_test": "xnli_test_en_en_nli08_120.jsonl",
+  "dataset_name": "xnli",
+  "model_name": "bigscience/mt0-base",
+  "max_answer_length": 2,
+  "max_length": 128,
+  "lr": 1e-2,
+  "epochs": 5,
+  "batch_size": 8,
+  "virtual_token": 20,
+  "randomize_seeds": false,
+  "seeds": 42
+}
