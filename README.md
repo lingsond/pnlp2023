@@ -18,11 +18,13 @@
 
 Evaluation (and fine-tuning) of some LLMs on several tasks (NLI, QA, NER, etc.).
 
+The project was supposed to be a 3-person project, however, the other two didn't participate until the end of the project.
+
 
 ## Contributors
-- [Dirk Wangsadirdja](https://github.com/lingsond) - Task: NLI, Dataset: XNLI
-- [Nada Aboudeshish]()
-- [Zihao Lu]()
+- Dirk Wangsadirdja - Task: NLI, Dataset: XNLI
+- ~~Nada Aboudeshish~~
+- ~~Zihao Lu~~
 
 
 ## Installation
@@ -31,8 +33,8 @@ Evaluation (and fine-tuning) of some LLMs on several tasks (NLI, QA, NER, etc.).
 
 ```bash
 # clone project
-git clone https://gitlab2.informatik.uni-wuerzburg.de/s438837/multilingual-evaluation-praktikum.git
-cd multilingual-evaluation-praktikum
+git clone https://github.com/lingsond/pnlp2023.git
+cd pnlp2023
 
 # [OPTIONAL] create conda environment
 conda create -n myenv python=3.9
@@ -49,8 +51,8 @@ pip install -r requirements.txt
 
 ```bash
 # clone project
-git clone https://gitlab2.informatik.uni-wuerzburg.de/s438837/multilingual-evaluation-praktikum.git
-cd multilingual-evaluation-praktikum
+git clone https://github.com/lingsond/pnlp2023.git
+cd pnlp2023
 
 # create conda environment and install dependencies
 conda env create -f environment.yaml -n myenv
@@ -101,4 +103,4 @@ python lingson/pipeline_scripts.py --config configs/config_file.json
 ```
 
 # For Other Datasets
-No information yet.
+The other contributors were supposed to work on these.
